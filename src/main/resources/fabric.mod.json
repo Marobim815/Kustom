@@ -1,0 +1,54 @@
+{
+	"schemaVersion": 1,
+	"id": "kustom_example_mod",
+	"version": "${version}",
+	"name": "Kustom_Example_Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kustom_example_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.io.github.sunset.mod.Kustom_Example_Mod",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.io.github.sunset.mod.Kustom_Example_ModClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.io.github.sunset.mod.Kustom_Example_ModDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"kustom_example_mod.mixins.json",
+		{
+			"config": "kustom_example_mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
