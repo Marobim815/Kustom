@@ -17,19 +17,19 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.io.github.sunset.mod.Kustom_Example_Mod",
+				"value": "com.io.github.marobim815.mod.KustomExampleMod",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
 			{
-				"value": "com.io.github.sunset.mod.Kustom_Example_ModClient",
+				"value": "com.io.github.marobim815.mod.KustomExampleModClient",
 				"adapter": "kotlin"
 			}
 		],
 		"fabric-datagen": [
 			{
-				"value": "com.io.github.sunset.mod.Kustom_Example_ModDataGenerator",
+				"value": "com.io.github.marobim815.mod.KustomExampleModDataGenerator",
 				"adapter": "kotlin"
 			}
 		]

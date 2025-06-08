@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.io.github.sunset.mixin.client",
+	"package": "com.io.github.marobim815.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

@@ -1,4 +1,4 @@
-package com.io.github.sunset.mixin;
+package com.io.github.marobim815.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

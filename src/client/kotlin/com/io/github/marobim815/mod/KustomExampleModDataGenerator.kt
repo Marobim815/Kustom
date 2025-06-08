@@ -1,9 +1,9 @@
-package com.io.github.sunset.mod
+package com.io.github.marobim815.mod
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 
-object Kustom_Example_ModDataGenerator : DataGeneratorEntrypoint {
+object KustomExampleModDataGenerator : DataGeneratorEntrypoint {
 	override fun onInitializeDataGenerator(fabricDataGenerator: FabricDataGenerator) {
 	}
 }

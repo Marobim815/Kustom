@@ -1,4 +1,4 @@
-package com.io.github.sunset.mixin.client;
+package com.io.github.marobim815.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
