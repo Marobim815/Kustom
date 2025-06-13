@@ -19,19 +19,17 @@
 
 ---
 
-##Supported Minecraft Versions
+## Supported Minecraft Versions
 
 - `1.21.5`
 
 ---
 
-##Motivation
-
 Fabric 기반 모드 개발은 반복 작업이 많습니다.  
 `Item`, `Block`을 등록하고, 관련 `JSON`, `lang`, `model`, `blockstates` 등을 하나하나 작성해야 합니다.  
 이런 일은 개발자의 시간을 낭비시키고, **실제 게임 컨텐츠 개발에 집중하지 못하게 만듭니다.**
 
-Kustom은 이러한 반복 작업을 줄이고, **한 줄 DSL**로 자동 생성되도록 하기 위해 만들어졌습니다.
+Kustom은 이러한 반복 작업을 줄이고, 구현에만 신경쓸 수 있게 **한 줄 DSL**로 자동 생성되도록 하기 위해 만들어졌습니다.
 
 ```kotlin
 items {
@@ -45,13 +43,13 @@ items {
 ```
 
 위 코드를 통해 다음이 자동 생성됩니다:
-	•	models/item/ruby_sword.json
-	•	lang/en_us.json
-	•	텍스처 경로 자동 복사 (지원 예정)
+- `models/item/ruby_sword.json`
+- `models lang/en_us.json`
+- *텍스처 경로 자동 복사 (지원 예정)*
 
 ⸻
 
-##Gradle
+## Gradle
 
 ```kts
 repositories {
@@ -65,7 +63,7 @@ dependencies {
 
 ⸻
 
-##DSL Example
+## DSL Example
 
 ```kt
 kustom {
@@ -92,16 +90,16 @@ kustom {
 ⸻
 
 
-##License
+## License
 
 **GPL-3.0 License**
 이 프로젝트의 코드 및 결과물은 다음 사항을 따릅니다:
-	•	변경 또는 삭제 금지
-	•	사용 시 원작자 표기 필수
+- 변경 또는 삭제 금지
+- 사용 시 원작자 표기 필수
 
 ⸻
 
-👥 Contributors
+### Contributors
 
 이름	기여 내용
 
