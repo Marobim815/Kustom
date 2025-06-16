@@ -47,7 +47,7 @@ items {
 - `models lang/en_us.json`
 - *텍스처 경로 자동 복사 (지원 예정)*
 
-⸻
+---
 
 ## Gradle
 
@@ -61,7 +61,7 @@ dependencies {
 }
 ```
 
-⸻
+---
 
 ## DSL Example
 
@@ -87,7 +87,7 @@ kustom {
 }
 ```
 
-⸻
+---
 
 
 ## License
@@ -97,13 +97,13 @@ kustom {
 - 변경 또는 삭제 금지
 - 사용 시 원작자 표기 필수
 
-⸻
+---
 
 ### Contributors
 
 - marobim815
 
-⸻
+---
 
 **Roadmap**
 	•	아이템 DSL
