@@ -12,10 +12,10 @@
 
 ## Features
 
-- 📦 아이템, 블록, 툴 등 자동 등록 (Auto Registration)
-- 🧾 `lang.json`, `model.json`, `blockstates.json`, `recipes.json` 자동 생성
-- 🧠 직관적인 Kotlin DSL 사용
-- 🔄 자동 텍스처 복사 및 경로 정리 (예정)
+- 아이템, 블록, 툴 등 자동 등록 (Auto Registration)
+- `lang.json`, `model.json`, `blockstates.json`, `recipes.json` 자동 생성
+- 직관적인 Kotlin DSL 사용
+- 자동 텍스처 복사 및 경로 정리 (예정)
 
 ---
 
@@ -101,7 +101,7 @@ kustom {
 
 ### Contributors
 
-이름	기여 내용
+- marobim815
 
 ⸻
 
